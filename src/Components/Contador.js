@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useState, Fragment} from'react';
 
 
 const Contador = () => {
+
+    const [numero, setNumero] = useState(0);
+
+    
     return ( 
-        <h2>First Componente</h2>
+        <Fragment>
+            <h3>First Componente {numero}</h3>
+        <button onClick={}>Acceptar</button>
+        </Fragment>
      );
 }
  
